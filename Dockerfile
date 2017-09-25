@@ -1,6 +1,6 @@
 FROM centos:7
 
-RUN yum update
+RUN yum update -y
 RUN yum install -y unzip zip
-RUN yum install which
+RUN yum install -y which
 
